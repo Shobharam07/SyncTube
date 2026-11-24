@@ -1,0 +1,13 @@
+import express from 'express';
+import { createServer } from 'node:http';
+import { Server } from 'socket.io';
+import { resolve } from 'node:path';
+import { registerEvents } from './sockets/registerEvents.js';
+const app = express();
+const http = createServer(app);
+const io = new Server(http, { maxHttpBufferSize: 16384 });
+app.get('/api/health', (_, res) => res.json({ ok: true }));
+app.use(express.static(resolve('dist')));
+app.get('*', (_, res) => res.sendFile(resolve('dist/index.html')));
+registerEvents(io);
+http.listen(process.env.PORT || 5000, '0.0.0.0', () => console.log('SyncTube running'));
