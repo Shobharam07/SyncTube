@@ -267,9 +267,9 @@ deploying.
 ### Deployment URL
 
 **Live application:**
-`Not deployed yet — add the public Render URL after deployment.`
+`https://synctube-watch-party-yh6m.onrender.com/`
 
-**GitHub repository:** `Add the repository URL before final submission.`
+**GitHub repository:** `https://github.com/Shobharam07/SyncTube`
 
 ------------------------------------------------------------------------
 
