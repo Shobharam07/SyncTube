@@ -266,10 +266,9 @@ deploying.
 
 ### Deployment URL
 
-**Live application:**
-`https://synctube-watch-party-yh6m.onrender.com/`
+**Live Application:** [Click Here](https://synctube-watch-party-yh6m.onrender.com/)
 
-**GitHub repository:** `https://github.com/Shobharam07/SyncTube`
+**GitHub Repository:** [View Source Code](https://github.com/Shobharam07/SyncTube)
 
 ------------------------------------------------------------------------
 
